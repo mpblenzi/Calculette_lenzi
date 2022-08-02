@@ -1,0 +1,23 @@
+{
+  "name": "calculette_lenzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calcul.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpblenzi/Calculette_lenzi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpblenzi/Calculette_lenzi/issues"
+  },
+  "homepage": "https://github.com/mpblenzi/Calculette_lenzi#readme",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "jtest": "^0.0.1"
+  }
+}

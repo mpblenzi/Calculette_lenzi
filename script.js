@@ -7,12 +7,17 @@ function verification(entree) {
   
    function resultat() {
      var x = 0;
-    if (verification(window.document.calculatrice.affiche.value))
-       x = eval(window.document.calculatrice.affiche.value);
-     window.document.calculatrice.affiche.value = x;
+        if(verification(window.document.calculatrice.affiche.value))
+        window.document.calculatrice.affiche.value = calcul(window.document.calculatrice.affiche.value);
    }
   
    function ajouter(caracteres) {
      window.document.calculatrice.affiche.value = window.document.calculatrice.affiche.value + caracteres;
    }
+
+   function calcul(valeur) {
+        x = eval(valeur);
+        return x;
+  }
   
+  module.exports = calcul
